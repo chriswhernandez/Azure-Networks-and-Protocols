@@ -24,7 +24,8 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 - Windows 11 Pro (21H12)
 - Ubuntu Server 20.04
 
-<h2>Pre-Requisites</h2>
+<h2>Pre-Requisite - This lab requires a Microsoft Azure account</h2>
+                                                                 
 <h2>Creating the virtual machines<h2/>                                                             
 
 - Step 1a. - After signing in to your Azure account, go into Resource Groups and create a Resource Group.
