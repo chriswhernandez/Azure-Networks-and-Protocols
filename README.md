@@ -27,7 +27,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 <h2>Pre-Requisites</h2>
 <h2>Creating the virtual machines<h2/>                                                             
 
-- Step 1.a - After signing in to your Azure account, go into Resource Groups and create a Resource Group.
+- Step 1a. - After signing in to your Azure account, go into Resource Groups and create a Resource Group.
 
 <p>
 <img src="https://i.imgur.com/JoagLuY.png alt"Resource Group"/?
@@ -35,7 +35,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 <br />
 <br />
 
-1.b Give it a name (click review and create).
+1b. Give it a name (click review and create).
 
 <p>
 <img src="https://i.imgur.com/ZStVPYj.png alt"Resource Group"/?
@@ -43,7 +43,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 <br />
 <br />
 
-1.c Then click create and wait a few moments....
+1c. Then click create and wait a few moments....
 
 <p>
 <img src="https://i.imgur.com/gELWu3g.png alt"Resource Group"/?
@@ -51,7 +51,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 <br />
 <br />
 
-1.d The Resource Group is Created
+1d. The Resource Group is Created
 
 <p>
 <img src="https://i.imgur.com/Coi0sQn.png alt"Rescource Group"/?
@@ -59,7 +59,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 <br />
 <br />
 
-Step 2.a - Create two Virtual Machines. One Windows and one Linux (as displayed below).
+Step 2a. - Create two Virtual Machines. One Windows and one Linux (as displayed below).
 
 <p>
 <img src="https://i.imgur.com/T74VAh7.png alt"Rescource Group"/?
@@ -100,19 +100,19 @@ Step 3a - Log in to VM1 using it's ip address
 <p>
 <img src="https://i.imgur.com/vArBqyu.png alt"Rescource Group"/?
 </p>
-Step 3b
+3b
 <p>
 <img src="https://i.imgur.com/zMh0l8f.png alt"Rescource Group"/?
 </p>
 <br />
 <br />  
 
-Step 4a - After logging in to the VM, navigate to Microsoft Edge and install Wireshark 
+Step 4a. - After logging in to the VM, navigate to Microsoft Edge and install Wireshark 
 
 <p>
 <img src="https://i.imgur.com/5v9dD3m.png alt"Rescource Group"/?
 </p>
-Step 4b
+4b.
 <p>
 <img src="https://i.imgur.com/wQgY6dH.png alt"Rescource Group"/?
 </p>
@@ -122,7 +122,6 @@ Now that you have logged in and installed WireShark you can continue on to the t
 <br />
 <br />
 <br />  
-
 
 <h2>Actions and Observations</h2>
 These observations are made by inputting commands that corresond to the type of traffic one wishes to observe and then filtering Wireshark by the corresponding traffic type.
