@@ -125,6 +125,39 @@ Now that you have logged in and installed WireShark you can continue on to the t
 <br />  
 
 <h2>Actions and Observations</h2>
+
+Below are the steps for ICMP (nternet Control Message Protocol) traffic observation from a perpetual ping and ICMP traffic stop after the inbound firewall rule is set 
+<br />
+5a. Obtain VM2's IP Address 
+<p>
+<img src="https://i.imgur.com/8qCjTv4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<br />
+                                                                                                 
+5b. Set the perpetual ping comand to ping VM2 and observe the ICMP traffic
+<p>
+<img src="https://i.imgur.com/Ru6xlZj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<br />
+
+5c. Change the Inbound firewall rule to deny ICMP traffic
+
+<p>
+<img src="https://i.imgur.com/JHjT8Ms.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+<br />
+
+
+5d. Observe the ping request times out after the firewall rule was put in place
+(*note - The ping request timed out due to the ICMP traffic being denied as the firewall rule blocked the traffic)
+<p>
+<img src="https://i.imgur.com/DyPKcxu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<br />
+
 These observations are made by inputting commands that corresond to the type of traffic one wishes to observe and then filtering Wireshark by the corresponding traffic type.
 <br />
 <br />
@@ -157,39 +190,6 @@ Below is SSH (Secure Shell) traffic observation using Wireshark
 
 <p>
 <img src="https://i.imgur.com/DzibrF1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-
-
-Below are the steps for ICMP (nternet Control Message Protocol) traffic observation from a perpetual ping and ICMP traffic stop after the inbound firewall rule is set 
-<br />
-5a. Obtain VM2's IP Address 
-<p>
-<img src="https://i.imgur.com/8qCjTv4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<br />
-                                                                                                 
-5b. Set the perpetual ping comand to ping VM2 and observe the ICMP traffic
-<p>
-<img src="https://i.imgur.com/Ru6xlZj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<br />
-
-5c. Change the Inbound firewall rule to deny ICMP traffic
-
-<p>
-<img src="https://i.imgur.com/JHjT8Ms.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<br />
-<br />
-
-
-5d. Observe the ping request times out after the firewall rule was put in place
-(*note - The ping request timed out due to the ICMP traffic being denied as the firewall rule blocked the traffic)
-<p>
-<img src="https://i.imgur.com/DyPKcxu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
