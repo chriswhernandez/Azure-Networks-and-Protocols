@@ -28,7 +28,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
                                                                  
 <h2>Creating the virtual machines<h2/>                                                             
 
-- Step 1a. - After signing in to your Azure account, go into Resource Groups and create a Resource Group.
+Step 1a. - After signing in to your Azure account, go into Resource Groups and create a Resource Group.
 
 <p>
 <img src="https://i.imgur.com/JoagLuY.png alt"Resource Group"/?
@@ -96,11 +96,12 @@ Step 2a. - Create two Virtual Machines. One Windows and one Linux (as displayed 
 <br />                                                            
 <br />
 
-Step 3a - Log in to VM1 using it's ip address
+Step 3a. - Log in to VM1 using it's ip address
 
 <p>
 <img src="https://i.imgur.com/vArBqyu.png alt"Rescource Group"/?
 </p>
+
 3b
 <p>
 <img src="https://i.imgur.com/zMh0l8f.png alt"Rescource Group"/?
@@ -113,6 +114,7 @@ Step 4a. - After logging in to the VM, navigate to Microsoft Edge and install Wi
 <p>
 <img src="https://i.imgur.com/5v9dD3m.png alt"Rescource Group"/?
 </p>
+
 4b.
 <p>
 <img src="https://i.imgur.com/wQgY6dH.png alt"Rescource Group"/?
@@ -128,6 +130,7 @@ Now that you have logged in and installed WireShark you can continue on to the t
 
 Below are the steps for ICMP (nternet Control Message Protocol) traffic observation from a perpetual ping and ICMP traffic stop after the inbound firewall rule is set 
 <br />
+
 5a. Obtain VM2's IP Address 
 <p>
 <img src="https://i.imgur.com/8qCjTv4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -150,7 +153,6 @@ Below are the steps for ICMP (nternet Control Message Protocol) traffic observat
 <br />
 <br />
 
-
 5d. Observe the ping request times out after the firewall rule was put in place
 (*note - The ping request timed out due to the ICMP traffic being denied as the firewall rule blocked the traffic)
 <p>
@@ -162,31 +164,28 @@ These observations are made by inputting commands that corresond to the type of 
 <br />
 <br />
 
-Below is RDP (Remote Desktop Protocol) traffic observation after filtering for RDP traffic in Wireshark 
+Step 6. Below is RDP (Remote Desktop Protocol) traffic observation after filtering for RDP traffic in Wireshark 
 
 <p>
 <img src="https://i.imgur.com/hn99RI6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-
-Below is DHCP (Dynamic Host Control Protocol) traffic observation using Wireshark
+Step 7. Below is DHCP (Dynamic Host Control Protocol) traffic observation using Wireshark
 
 <p>
 <img src="https://i.imgur.com/SlS2Wbk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-
-Below is DNS (Domain Name System) traffic observation using Wireshark
+Step 8. Below is DNS (Domain Name System) traffic observation using Wireshark
 
 <p>
 <img src="https://i.imgur.com/Yiqaurl.png " height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
-
-Below is SSH (Secure Shell) traffic observation using Wireshark
+Step 9. Below is SSH(Secure Shell) traffic observation using Wireshark
 
 <p>
 <img src="https://i.imgur.com/DzibrF1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
