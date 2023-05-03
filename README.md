@@ -46,7 +46,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 1c. Then click create and wait a few moments....
 
 <p>
-<img src="https://i.imgur.com/gELWu3g.png alt"Resource Group"/?
+<img src=https://i.imgur.com/gELWu3g.png alt"Resource Group"/?
 </p>
 <br />
 <br />
