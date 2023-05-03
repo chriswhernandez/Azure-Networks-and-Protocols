@@ -1,4 +1,3 @@
-# Azure-Networks-and-Protocols
 <p align="center">
 <img src="https://imgur.com/RTZL0Ru.png alt="Traffic Examination"/>  
 </p>
