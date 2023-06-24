@@ -15,7 +15,7 @@ In this tutorial, I analyze and observe various network traffic protocols betwee
 
 - Various Command-Line Tools are used such as Command Prompt for ping commands and Powershell to ssh into the second virtual machine.
 
-- Network Protocols (SSH, RDH, DNS, ICMP, DHCP) are observed in wireshark as both VMs communicate with each other under various commands.
+- Network Protocols (SSH, RDP, DNS, ICMP, DHCP) are observed in wireshark as both VMs communicate with each other under various commands.
 
 - Wireshark is the network traffic analyzer used to observe the different types of traffic being sent between both VMs.
 
